@@ -25,7 +25,7 @@ const router = Router();
 const cors =  require("cors");
 
 router.get("/", async (req, res ) => {
-    res.send("Hello api") 
+    res.send("Welcame api") 
 })
 
 router.get("/recipes", async (req, res, next) => {
