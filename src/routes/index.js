@@ -183,7 +183,7 @@ router.post('/recipe', async (req, res) => {
     console.log('See', diets)
     await recipeCreated.addDiets(diets);
 
-    res.send("Created successfully");
+    res.send("mmm...teast good");
   } catch (error) {
     console.log(error)
     res.send('error')
